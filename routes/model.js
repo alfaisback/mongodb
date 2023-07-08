@@ -6,7 +6,7 @@ const productSchema = new Schema({
     name: {
         type: String,
         required: [true, 'Name must be field'],
-        minlength: 3,
+        minlength: 2,
         maxlength: 50
     },
     price: {
